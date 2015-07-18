@@ -1,0 +1,9 @@
+Package: com.i0sa.mailnoread
+Name: MailNoRead
+Depends: mobilesubstrate
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Control over marking mail as read
+Maintainer: Osama Muhammed
+Author: Osama Muhammed
+Section: Tweaks

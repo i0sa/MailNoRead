@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = mailnoreadprefs;
+	cell = PSLinkCell;
+	detail = mailnoreadprefsListController;
+	icon = mailnoreadprefs.png;
+	isController = 1;
+	label = mailnoreadprefs;
+    };
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Email Account to anti read</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+
+		  <key>detail</key>
+		  <string>PSListItemsController</string>
+
+    <key>key</key>
+    <string>accSelected</string>
+
+
+  <key>defaults</key>
+  <string>com.i0sa.mailnoreadprefs</string>
+
+			<key>id</key>
+			<string>mailAccs</string>
+			<key>label</key>
+			<string>Account</string>
+		    <key>validValues</key>
+		     <array>
+
+		     </array>
+		    <key>validTitles</key>
+		     <array>
+
+		     </array>
+
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+         <key>label</key>
+			<string>© 2015 Osama Muhammed - i0sa</string>
+			
+		</dict>
+
+
+	</array>
+	<key>title</key>
+	<string>MailNoRead</string>
+</dict>
+
+
+
+</plist>
