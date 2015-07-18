@@ -18,13 +18,13 @@ BOOL isViewingMessage;
 
     if(enabled){
      if(!isViewingMessage){ // to solve inside message manual marking
-	    if([selectedAcc isEqualToString:[[swag account] username]]){
-	    	return;
-	    }
-	  }  
-	}
+	if([selectedAcc isEqualToString:[[swag account] username]]){
+	   return;
+	 }
+      }  
+    }
 
-	return %orig;
+    return %orig;
 }
 
 -(void)viewDidAppear:(bool)xx{
